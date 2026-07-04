@@ -11,3 +11,5 @@ tonight i started project i made the cmake list and started writing the main cpp
 wrote the ping pong buf and the imu driver for it now i will be writing the gps drivers
 
 made the gps parsing driver
+
+made the logger.cpp
