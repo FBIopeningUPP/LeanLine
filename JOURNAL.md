@@ -13,3 +13,5 @@ wrote the ping pong buf and the imu driver for it now i will be writing the gps 
 made the gps parsing driver
 
 made the logger.cpp
+
+wrote the sensor fusion script
