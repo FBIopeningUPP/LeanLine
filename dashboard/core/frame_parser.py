@@ -16,7 +16,7 @@ class FrameParser:
         print(f"Parsing telemetry binary: {filepath}")
 
         with open(filepath, 'rb') as f:
-            while true:
+            while True:
 
                 chunk = f.read(FrameParser.FRAME_SIZE)
 

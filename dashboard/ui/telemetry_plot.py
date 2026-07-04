@@ -24,7 +24,7 @@ class TelemetryPlotWidget(QWidget):
 
         self.layout.addWidget(self.plot_widget)
     
-    def update_plot(self, telemetry_frame: TelemetryFrame):
+    def update_plot(self, frames):
         if not frames:
             return
         
@@ -38,10 +38,10 @@ class TelemetryPlotWidget(QWidget):
             t_sec = (f.timestamp_ms - start_time_ms) / 1000.0
             times_sec.append(t_sec)
 
-            s_kmh = f.ground_speed * 0.036
+            s_kmh = f.ground_speed / 100.0
             speeds_kmh.append(s_kmh)
 
-            l_deg = f.lean_angle / 100.0
+            l_deg = f.lead_voltage / 100.0
             leans_deg.append(l_deg)
         
         self.speed_curve.setData(times_sec, speeds_kmh)

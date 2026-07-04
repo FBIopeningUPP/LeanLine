@@ -17,3 +17,5 @@ made the logger.cpp
 wrote the sensor fusion script
 
 made the whole main.py and made myself the whole thing functional
+
+pcb design and everything is done
