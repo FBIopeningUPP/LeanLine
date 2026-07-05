@@ -60,3 +60,6 @@ RP2040 bare-metal is pretty easy to program not that hard
     python dashboard/main.py
 
 4. Click Load Telemetry Binary and select the MicroSd card data
+
+# USAGE OF AI
+the usage of ai was done to figure out the pinout and the project structure of how everything will be done
