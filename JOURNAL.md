@@ -21,3 +21,4 @@ made the whole main.py and made myself the whole thing functional
 pcb design and everything is done
 
 the pcb design had issues so i redesigned everything with better mounting
+
