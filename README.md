@@ -62,8 +62,10 @@ RP2040 bare-metal is pretty easy to program not that hard
 4. Click Load Telemetry Binary and select the MicroSd card data
 
 # IMAGES
-
+### Front
 ![Front](images/front.png)
+
+### Back
 ![Back](images/back.png)
 
 # USAGE OF AI
